@@ -1,0 +1,97 @@
+@media screen and (max-width: 500px){
+    .nav,.nav2 {
+        display: none;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+    }
+    .right img{
+        width: 50%;
+    }
+    .left{
+        width: 98%;
+        text-align: center;
+        margin: auto;
+    }
+    .button{
+        margin: auto;
+    }
+    .about{
+        flex-wrap: wrap;
+
+    }
+    .micro365{
+        width: 98%;
+        margin:auto;
+
+    }
+
+    .outlook-banner{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+    }
+    
+    .business{
+        flex-wrap: wrap;
+
+    }
+    .microteams{
+        width: 98%;
+        margin:auto;
+
+    }
+    .covid{
+        width: 100%;
+        height: 45vh;
+    }
+    .covid h2{
+         padding-left: 10px;
+         font-size: 26px;
+         font-weight: 600;
+         padding-bottom: 10px;
+         text-align: center;
+         padding-top: 25px;
+    }
+    .covid p{
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 15px;
+    line-height: 19.5px;
+    text-align: center;
+    }
+    .covid a{
+     text-align: center;
+     padding-left: 210px;
+    }
+    .firstfooter{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+       
+    }
+    .firstfooter1{
+        padding-left: 30px;
+        padding-bottom: 40px;
+    }
+    .secondfooter{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+    }
+    .globe{
+        padding-left: 30px;
+    }
+    .secondfooter ul{
+        padding-left: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px){
+
+}
