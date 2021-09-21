@@ -10,28 +10,33 @@ body{
     padding: 0px;
     box-sizing: border-box;
 }
-
-.logo{
+.nav-btn{
+    display: none;
+}
+.nav-icon{
+    display: none;
+}
+.header{
     display: flex;
     align-items: center;
 }
-.logo img{
+.header img{
     width: 130px;
     height: 25px;
     padding-left: 85px;
 }
-.nav li{
+.header ul li{
     list-style-type: none;
     display: inline-block;
     padding-right: 20px;
 }
-.nav li a{
+.header ul a{
     text-decoration: none;
     color: black;
     font-size: 13px;
     font-family: "Segoe UI";
 }
-.nav li a:hover{
+.header ul li a:hover{
     text-decoration: underline 2px solid;
 }
 .nav2{

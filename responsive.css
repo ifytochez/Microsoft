@@ -2,10 +2,10 @@
     body{
         overflow-x: hidden;
     }
-    .logo{
+    .header{
         width: 100%;
     }
-    .logo img{
+    .header img{
         padding-left: 30px;
     }
     .nav2{
@@ -114,9 +114,46 @@
 }
 
 @media screen and (max-width: 500px){
-    .nav,.nav2 {
-        display: none;
+    .header{
+        background: rgb(190, 204, 190);
+        position: fixed;
+        display: block;
+        width: 100%;
+        z-index: 3;
+        padding: 0;
+        margin: 0;
     }
+    .header img{
+        padding: 0;
+        float: right;
+        padding: 10px 20px;
+    }
+    .header ul{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .header ul li{
+        display: block;
+    }
+    .header ul li a{
+        display: block;
+        outline: 1px solid red;
+        padding: 20px;
+        border-right: 1px solid yellow;
+    }
+    .header ul li a:hover{
+        text-decoration: none;
+    }
+    .header .nav{
+        clear: both;
+        max-height: 0;
+        transition: max-height .2s ease-out;
+    }
+    .header .menu-icon{}
+    .nav2{
+        display: none;
+    } 
     .banner-container{
         flex-direction: column-reverse;
         width: 100%;
@@ -125,9 +162,7 @@
     .right img{
         flex-wrap: wrap;
         padding-left: 290px;
-        /* width: 440%;
-        height: 310%; */
-    }
+     } 
     .left{
         width: 100%;
         text-align: center;
@@ -161,9 +196,9 @@
     .micro365 h3{
      margin-top: 0px;
      padding-top: 5px;
-    }
+    } */
 
-    .outlook-banner{
+     .outlook-banner{
         flex-direction: column-reverse;
         width: 100%;
         height: auto;
@@ -252,7 +287,7 @@
     }
     .secondfooter ul{
         padding-left: 10px;
-    }
+    }  
 }
 
 
