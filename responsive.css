@@ -2,10 +2,15 @@
     body{
         overflow-x: hidden;
     }
-    .nav,.nav2 {
-        display: none;
+    .logo{
+        width: 100%;
     }
-
+    .logo img{
+        padding-left: 30px;
+    }
+    .nav2{
+        padding-left: 150px;
+    }
     .banner-container{
         width: 100%;
         height: auto;
@@ -82,6 +87,29 @@
    .covid a{
     text-align: center;
     padding-left: 460px;
+   }
+   .media{
+       padding-bottom: 45px;
+   }
+   .firstfooter{
+       width: 100%;
+       flex-wrap: wrap;
+       padding-top: 20px;
+   }
+   .firstfooter1{
+       padding-left: 30px;
+       width: 30.3%;
+       padding-bottom: 20px;
+   }
+   .secondfooter{
+       width: 100%;
+       padding-top: 10px;
+   }
+   .globe {
+       padding-left: 30px;
+   }
+   .secondfooter ul{
+       padding-left: 230px;
    }
 }
 
@@ -204,7 +232,7 @@
      padding-left: 210px;
     }
     .firstfooter{
-        flex-direction: column-reverse;
+        flex-direction: column;
         width: 100%;
         height: auto;
        
