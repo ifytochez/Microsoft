@@ -39,6 +39,9 @@ body{
 .header ul li a:hover{
     text-decoration: underline 2px solid;
 }
+.nav3{
+    display: none;
+}
 .nav2{
     padding-left: 430px;
 }
@@ -273,7 +276,7 @@ color: #045d91;
      font-weight: 600;
      font-family: "Segoe UI";
      margin-bottom: 0px;
-     padding-top: 40px;
+     padding-top: 30px;
  }
  .covid p{
      font-size: 15px;
@@ -295,11 +298,11 @@ color: #045d91;
  }
  .media{
      display: flex;
-     /* margin-left: 80px; */
      margin: auto;
      width: 88%;
      align-items: center;
      padding-top: 55px;
+     padding-bottom: 20px;
  }
  .socialmedia{
      margin-bottom: 10px;

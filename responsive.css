@@ -125,6 +125,7 @@
         position: fixed;
         display: block;
         width: 100%;
+        height: 15vh;
         z-index: 3;
         padding: 0;
         margin: 0;
@@ -133,7 +134,7 @@
         float: right;
         padding-top: 15px;
         padding-bottom: 10px;
-        padding-right: 250px;
+        padding-right: 200px;
     }
     .header ul{
         margin: 0;
@@ -204,7 +205,28 @@
         top: 0;
     }
     .nav2{
-        display: none;
+        padding-left: 0px;
+    }
+    .nav2 button{
+        display: none
+    }
+    .search{
+        padding-left: 30px;
+        bottom: 365px;
+        position: fixed
+    }
+    .cart{
+        padding-left: 400px;
+        bottom: 365px;
+        position: fixed
+    }
+    .user{
+        padding-left: 440px;
+        bottom: 365px;
+        position: fixed
+    }
+    .nav3{
+      display:;
     }
 
     .banner-container{
@@ -212,6 +234,7 @@
         width: 100%;
         background: none;
         padding-bottom: 0;
+        padding-top: 0;
     }
     .right{
         width: 100%;
@@ -270,7 +293,6 @@
         width: 410px;
         height: 300px;
         margin: auto;
-        padding-left: 50px;
     } 
     .outlook-left{
         width: 100%;
@@ -291,6 +313,7 @@
     }
     .business{
     flex-direction: column;
+    padding-bottom: 0px;
     }
     
     .microteams{
@@ -329,8 +352,8 @@
     text-align: center;
     }
     .covid a{
-     text-align: center;
-     padding-left: 210px;
+     padding-left: 200px;
+     margin: auto;
     }
     
     .firstfooter{
