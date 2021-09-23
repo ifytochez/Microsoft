@@ -71,7 +71,7 @@ body{
     background: #F3F3F3;
     }
  .left{
-     margin-top: 140px;
+     padding-top: 140px;
      padding-left: 80px;
      width: 60%;
  }   
