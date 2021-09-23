@@ -18,9 +18,9 @@
         padding-bottom: 80px;
     }
     .right img{
-        padding-left: 105px;
-        width: 440px;
-        height: 310px;
+            padding-left: 105px;
+            width: 440px;
+            height: 310px;
     }
     .about{
         flex-wrap: wrap;
@@ -123,7 +123,6 @@
     .header{
         background: white;
         position: fixed;
-        display: block;
         width: 100%;
         height: 15vh;
         z-index: 3;
@@ -132,9 +131,7 @@
     }
     .header img{
         float: right;
-        padding-top: 15px;
-        padding-bottom: 10px;
-        padding-right: 200px;
+        padding-left: o;
     }
     .header ul{
         margin: 0;
@@ -155,6 +152,7 @@
         clear: both;
         max-height: 0;
         transition: max-height .2s ease-out;
+        
     }
     .header .nav-icon{
         padding: 26px 20px;
@@ -191,7 +189,7 @@
         top: -5px;
     }
     .header .nav-btn:checked ~ .nav{
-     max-height: 240px;
+     max-height: 540px;
     }
     .header .nav-btn:checked ~ .nav-icon .navi-icon{
         background: transparent;
@@ -204,29 +202,14 @@
         transform: rotate(45deg);
         top: 0;
     }
-    .nav2{
-        padding-left: 0px;
-    }
-    .nav2 button{
+    .hidden-sm{
         display: none
     }
-    .search{
-        padding-left: 30px;
-        bottom: 365px;
-        position: fixed
-    }
-    .cart{
-        padding-left: 400px;
-        bottom: 365px;
-        position: fixed
-    }
-    .user{
-        padding-left: 440px;
-        bottom: 365px;
-        position: fixed
+    .hidden-lg{
+        display: block
     }
     .nav3{
-      display:;
+      display: block;
     }
 
     .banner-container{

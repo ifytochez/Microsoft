@@ -10,6 +10,9 @@ body{
     padding: 0px;
     box-sizing: border-box;
 }
+.hidden-lg{
+    display: none;
+}
 .nav-btn{
     display: none;
 }
@@ -69,7 +72,7 @@ body{
     }
  .left{
      margin-top: 140px;
-     margin-left: 80px;
+     padding-left: 80px;
      width: 60%;
  }   
  .left h1{
@@ -109,12 +112,12 @@ body{
 .right{
     width: 20%;
 }
- .right img{
-     width: 630px;
-     height: 410px;
-     margin-left: -209px;
-     margin-top: 25px;
- }
+.right img{
+    width: 630px;
+    height: 410px;
+    margin-left: -209px;
+    margin-top: 25px;
+}
  .about{
     display: flex;
     background: white;
