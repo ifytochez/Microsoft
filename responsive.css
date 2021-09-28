@@ -2,6 +2,7 @@
     body{
         overflow-x: hidden;
     }
+
     .header{
         width: 100%;
     }
@@ -146,9 +147,12 @@
     .header ul li{
         display: block;
         padding: 20px;
-        outline: 1px #494848;
-        border-right: 1px solid sienna;
     }
+   .thin{
+       display: block;
+       border: 1px solid #494848;
+       opacity: 0.1;
+   }
     .header img{
         padding: 10px;
         float: right;
