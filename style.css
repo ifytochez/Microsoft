@@ -10,59 +10,57 @@ body{
     padding: 0px;
     box-sizing: border-box;
 }
-.hidden-lg{
-    display: none;
-}
-.nav-btn{
-    display: none;
-}
-.nav-icon{
+.menu-btn{
     display: none;
 }
 .header{
     display: flex;
+    width: 100%;
     align-items: center;
+    height: 10vh;
 }
-.header img{
-    width: 130px;
-    height: 25px;
-    padding-left: 85px;
+.header ul{
+    margin: 0px;
+    padding: 0;
 }
 .header ul li{
-    list-style-type: none;
     display: inline-block;
-    padding-right: 20px;
+    list-style-type: none;
+    margin-left: 20px;
 }
-.header ul a{
+.header ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(15, 15, 15);
     font-size: 13px;
     font-family: "Segoe UI";
 }
 .header ul li a:hover{
     text-decoration: underline 2px solid;
 }
-.nav3{
+.hide{
     display: none;
 }
-.nav2{
-    padding-left: 430px;
+.header img{
+    width: 130px;
+    height: 25px;
+    padding-left: 80px;
 }
-.nav2 button{
+.menu2 button{
     border: none;
     background: #FFFFFF;
     font-family: "Segoe UI";
 }
-.angle{
-    padding-left: 5px;
+.menu2{
+    padding-left: 490px;
 }
 .icons{
-    padding-left: 30px;
+    padding-left: 15px;
 }
 .search, .cart, .user{
     padding-left: 13px;
     font-weight: normal;
-}
+} 
+
 .banner-container{
     width: 88%;
     height: 70vh;
@@ -162,11 +160,6 @@ font-weight: 500;
 font-family: "Segoe UI";
 color: #045d91; 
 }
-
-
-/* .banner1 h1{
-    margin-right: 200px;
-} */
 
 .outlook-banner{
     width: 88%;

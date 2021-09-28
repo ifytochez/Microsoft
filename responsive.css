@@ -8,8 +8,8 @@
     .header img{
         padding-left: 30px;
     }
-    .nav2{
-        padding-left: 150px;
+    .menu2{
+        padding-left: 230px;
     }
     .banner-container{
         width: 100%;
@@ -113,63 +113,66 @@
    }
 }
 
+
 @media screen and (max-width: 500px){
-    .nav-btn{
+    .menu2{
+        padding-left: 0px;
+    }
+    .icons{
         display: none;
     }
-    .nav-icon{
-        display: inline;
-    } 
+    .header ul li{
+        margin-left: 0px;
+    }
+    .menu2 button{
+        display: none;
+    }
     .header{
         background: white;
         position: fixed;
         width: 100%;
-        height: 15vh;
+        /* height: 15vh; */
         z-index: 3;
         padding: 0;
         margin: 0;
-    }
-    .header img{
-        float: right;
-        padding-left: o;
+        display: block;
     }
     .header ul{
-        margin: 0;
         padding: 0;
+        margin: 0;
         overflow: hidden;
+        background: #f3f3f3;
     }
     .header ul li{
         display: block;
-    }
-    .header ul li a{
-        display: block;
         padding: 20px;
+        outline: 1px #494848;
+        border-right: 1px solid sienna;
     }
-    .header ul li a:hover{
-        text-decoration: none;
+    .header img{
+        padding: 10px;
+        float: right;
     }
-    .header .nav{
+    .header .menu{
         clear: both;
         max-height: 0;
-        transition: max-height .2s ease-out;
-        
+        transition:max-height .2s ease-out;
     }
-    .header .nav-icon{
-        padding: 26px 20px;
-        position: relative;
-        float: left;
-        cursor: pointer;
-    }
-    .header .nav-icon .navi-icon{
-        background: indigo;
-        display: block;
-        height: 2px;
-        width: 18px;
-        position: relative;
-        transition:background .2s ease-out;
-    }
-    .header .nav-icon .navi-icon::before{
-        background: indigo;
+   .header .menu-icon{
+       padding: 28px 20px;
+       position: relative;
+       float: left;
+   }
+   .header .menu-icon .nav-icon{
+       background: black;
+       display: block;
+       height: 2px;
+       width: 18px;
+       position: relative;
+       transition:background .2s ease-out;
+   }
+    .header .menu-icon .nav-icon:before{
+        background: black;
         content: "";
         display: block;
         height: 100%;
@@ -178,8 +181,8 @@
         transition:all .2s ease-out;
         top: 5px;
     }
-    .header .nav-icon .navi-icon::after{
-        background: indigo;
+    .header .menu-icon .nav-icon:after{
+        background: black;
         content: "";
         display: block;
         height: 100%;
@@ -188,29 +191,26 @@
         transition:all .2s ease-out;
         top: -5px;
     }
-    .header .nav-btn:checked ~ .nav{
-     max-height: 540px;
+    .header .menu-btn{
+        display: none;
     }
-    .header .nav-btn:checked ~ .nav-icon .navi-icon{
-        background: transparent;
-    }
-    .header .nav-btn:checked ~ .nav-icon .navi-icon::before{
-      transform: rotate(-45deg);  
-      top: 0;
-    }
-    .header .nav-btn:checked ~ .nav-icon .navi-icon::after{
-        transform: rotate(45deg);
-        top: 0;
-    }
-    .hidden-sm{
-        display: none
-    }
-    .hidden-lg{
-        display: block
-    }
-    .nav3{
+   .header .menu-btn:checked ~ .menu{
+       max-height: 540px;
+   }
+   .header .menu-btn:checked ~ .menu-icon .nav-icon{
+    background: transparent;
+   }
+  .header .menu-btn:checked ~ .menu-icon .nav-icon::before{
+    transform: rotate(-45deg);  
+    top: 0;
+  }
+  .header .menu-btn:checked ~ .menu-icon .nav-icon::after{
+    transform: rotate(45deg);
+    top: 0;
+}
+  .hide{
       display: block;
-    }
+  }
     .banner-container{
         flex-direction: column-reverse;
         width: 100%;
