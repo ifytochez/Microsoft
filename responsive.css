@@ -2,7 +2,12 @@
     body{
         overflow-x: hidden;
     }
-
+    .break{
+        display: inline;
+    }
+    .break2{
+        display: none;
+    }
     .header{
         width: 100%;
     }
@@ -20,7 +25,6 @@
     }
     .right img{
         width: 100%;
-         
     }
     .about{
         flex-wrap: wrap;
@@ -36,6 +40,9 @@
     .micro365 h3{
         margin-top: 0px;
         padding-top: 25px;
+       }
+    .anchor-tag{
+        padding-bottom: 20px;
        }
     .outlook-banner{
         width: 100%;
@@ -214,6 +221,10 @@
   .hide{
       display: block;
   }
+  .break2{
+      display: none;
+  }
+  
     .banner-container{
         flex-direction: column-reverse;
         width: 100%;
@@ -232,7 +243,7 @@
     .left{
         width: 100%;
         text-align: center;
-        margin: auto;
+         /* margin: auto;  */
         height: 300px;
         background: #E6E6E6;
     }

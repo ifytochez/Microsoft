@@ -10,6 +10,9 @@ body{
     padding: 0px;
     box-sizing: border-box;
 }
+.break{
+    display: none;
+}
 .thin{
     display: none;
 }
@@ -72,7 +75,7 @@ body{
     background: #F3F3F3;
     }
  .left{
-     padding-top: 140px;
+     padding-top: 80px;
      padding-left: 80px;
      width: 40%;
  }   
