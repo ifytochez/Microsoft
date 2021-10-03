@@ -10,6 +10,9 @@ body{
     padding: 0px;
     box-sizing: border-box;
 }
+.container{
+    width: 100%;
+}
 .break{
     display: none;
 }
@@ -117,10 +120,8 @@ body{
     width: 40%;
 }
 .right img{
-  max-width: 139%;
+  width: 659px;
   height: auto;
-  background-position: center center;
-  background-size: contain;
 }
  .about{
     display: flex;
