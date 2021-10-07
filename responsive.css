@@ -271,28 +271,20 @@
     } 
     .outlook-banner{
     flex-direction: column-reverse;
-        padding-top: 0px;
+    padding-top: 0px;
     }
      .outlook-right{
     width: 100%;
-    height: 300px;
     }
     .outlook-right img{
-        width: 410px;
-        height: 300px;
         margin: auto;
     } 
     .outlook-left{
         width: 100%;
         text-align: center;
         margin: auto;
-        height: 300px;
-        padding-left: 0px;
-        padding-top: 0;
+        padding: 40px 0px 70px 0px;
     } 
-    .outlook-left h1{
-        padding-top: 70px;
-    }
     .button2{
         margin: auto;
     }
