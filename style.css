@@ -118,9 +118,10 @@ body{
     flex: 1;
 }
 .right img{
-  width: 659px;
+  width: 100%;
   height: auto;
- 
+ position: relative;
+ right: -20px;
 }
 .about{
     display: flex;
@@ -177,9 +178,9 @@ color: #045d91;
 }
 
 .outlook-left{
+        flex: 1;
         padding-top: 150px;
         padding-left: 80px;
-        flex: 1;
 }  
 .outlook-left h1{
         font-size: 24px;
@@ -205,9 +206,10 @@ color: #045d91;
  } 
  .outlook-right{
         flex: 1;
+        width: 100%;
     }
  .outlook-right img{
-         padding-left: 30px;
+         width: 50%;
         }
 .softbiz p{
         font-size: 22px;
