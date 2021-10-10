@@ -103,7 +103,7 @@
   
 .banner-container{
         flex-direction: column-reverse;
-        width: 100%;
+        /* width: 100%; */
         background: none;
         padding-bottom: 0;
         padding-top: 0;
@@ -235,7 +235,6 @@
     .secondfooter ul{
         padding-left: 10px;
     }  
-
 
 
 
