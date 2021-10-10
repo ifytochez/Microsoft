@@ -239,7 +239,7 @@
 
 
 
-@media screen and (min-width: 501px){
+/* @media screen and (min-width: 501px) and (max-width:768px){
     body{
         overflow-x: hidden;
     }
@@ -356,7 +356,7 @@
    .secondfooter ul{
        padding-left: 230px;
    }
-}
+} */
 
 
 
