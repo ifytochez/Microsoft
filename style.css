@@ -272,9 +272,9 @@ color: #045d91;
     height: 25vh;
     margin: auto;
     background: #F3F3F3;
+    text-align: center;
  }
  .covid h2{
-     padding-left: 360px;
      font-size: 34px;
      font-weight: 600;
      font-family: "Segoe UI";
@@ -286,11 +286,9 @@ color: #045d91;
      font-weight: 400;
      font-family: "Segoe UI";
      margin-top: 0px;
-     padding-left: 350px;
      line-height: 30px;
  }
  .covid a{
-     padding-left: 560px;
      text-decoration: none;
      font-weight: 500;
     font-family: "Segoe UI";
