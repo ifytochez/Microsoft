@@ -1,0 +1,162 @@
+@media screen and (max-width:500px){
+    .menu2{
+        padding-left: 0px;
+    }
+    .icons{
+        display: none;
+    }
+    .header ul li{
+        margin-left: 0px;
+    }
+    .menu2 button{
+        display: none;
+    }
+    .header{
+        background: white;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+    .header ul{
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        background: #f3f3f3;
+    }
+    .header ul li{
+        display: block;
+        padding: 20px;
+    }
+   .thin{
+       display: block;
+       border: 1px solid #494848;
+       opacity: 0.1;
+   }
+    .header img{
+        padding: 10px;
+        float: right;
+    }
+    .header .menu{
+        clear: both;
+        max-height: 0;
+        transition:max-height .2s ease-out;
+    }
+   .header .menu-icon{
+       padding: 28px 20px;
+       position: relative;
+       float: left;
+   }
+   .header .menu-icon .nav-icon{
+       background: black;
+       display: block;
+       height: 2px;
+       width: 18px;
+       position: relative;
+       transition:background .2s ease-out;
+   }
+    .header .menu-icon .nav-icon:before{
+        background: black;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition:all .2s ease-out;
+        top: 5px;
+    }
+    .header .menu-icon .nav-icon:after{
+        background: black;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition:all .2s ease-out;
+        top: -5px;
+    }
+    .header .menu-btn{
+        display: none;
+    }
+   .header .menu-btn:checked ~ .menu{
+       max-height: 540px;
+   }
+   .header .menu-btn:checked ~ .menu-icon .nav-icon{
+    background: transparent;
+   }
+  .header .menu-btn:checked ~ .menu-icon .nav-icon::before{
+    transform: rotate(-45deg);  
+    top: 0;
+  }
+  .header .menu-btn:checked ~ .menu-icon .nav-icon::after{
+    transform: rotate(45deg);
+    top: 0;
+  }
+  .hide{
+      display: block;
+  }
+  .break2{
+      display: none;
+  } 
+  .banner-container{
+      flex-direction: column-reverse;
+      padding-top: 300px;
+  }
+  .left{
+    padding: 50px 0px 50px 0px;
+    width: 100%;
+    text-align: center;
+    background: #801111;
+} 
+.button{
+margin: auto;
+} 
+.right img{
+    width: 100%;
+    height: auto;
+   position: none;
+}
+.about{
+    flex-wrap: wrap;
+    width: 90%;
+    padding-left: 0px;
+    padding-bottom: 45px;
+    margin: auto;
+}
+.micro365{
+    width: 100%;
+    height: auto;
+}
+.micro365 h3{
+    margin-top: 0px;
+    padding-top: 25px;
+   }
+.anchor-tag{
+    padding-bottom: 20px;
+   }
+.outlook-banner{
+    flex-direction: column-reverse;
+    width:100%;
+    padding-top: 170px;
+}
+.outlook-left{
+    padding: 100px 0px 50px 0px;
+    width: 100%;
+    text-align: center;
+    
+}
+.button2{
+    margin: auto;
+}
+.outlook-right{
+    width: 100%;
+}
+ .outlook-right img{
+    width: 50%;
+   position: relative;
+   left: 130px;
+  
+   } 
+}

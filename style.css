@@ -171,7 +171,7 @@ color: #045d91;
 
 .outlook-banner{
     width: 88%;
-    height: 70vh;
+    height: 75vh;
     margin: auto;
     display: flex;
     background: #F3F3F3;
@@ -207,10 +207,9 @@ color: #045d91;
  } 
  .outlook-right{
         flex: 1;
-        width: 100%;
     }
  .outlook-right img{
-         width: 50%z;
+         width: 100%;
         }
 .softbiz p{
         font-size: 22px;
