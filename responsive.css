@@ -127,16 +127,14 @@ margin: auto;
 .micro365{
     width: 100%;
     height: auto;
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 .micro365 img{
     margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 .micro365 h3{
     margin-top: 0px;
-    padding-top: 25px;
    }
 .anchor-tag{
     padding-bottom: 20px;
