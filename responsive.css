@@ -120,12 +120,14 @@ margin: auto;
 .about{
     flex-wrap: wrap;
     width: 90%;
-    padding: 0px 0px 60px 0px;
+    padding-left: 0px;
+    padding-bottom: 45px;
     margin: auto;
 }
 .micro365{
     width: 100%;
     height: auto;
+    padding-bottom: 50px;
 }
 .micro365 h3{
     margin-top: 0px;
