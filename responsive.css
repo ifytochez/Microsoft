@@ -108,7 +108,6 @@
     padding: 50px 0px 50px 0px;
     width: 100%;
     text-align: center;
-    background: #801111;
 } 
 .button{
 margin: auto;
@@ -121,8 +120,7 @@ margin: auto;
 .about{
     flex-wrap: wrap;
     width: 90%;
-    padding-left: 0px;
-    padding-bottom: 45px;
+    padding: 50px 0px 45px 0px;
     margin: auto;
 }
 .micro365{
@@ -231,4 +229,4 @@ text-align: center;
 
 }
 
-@media screen and (min-width:500px) and (max)
+
