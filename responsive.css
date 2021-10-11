@@ -134,7 +134,7 @@ margin: auto;
     padding-bottom: 0px;
 }
 .micro365 h3{
-    margin-top: 0px;
+    margin-top: 10px;
    }
 .anchor-tag{
     padding-bottom: 20px;
@@ -171,17 +171,16 @@ margin-bottom: 0px;
 }
 
 .microteams{
-    width: 98%;
-    margin:auto;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
 }
 .microteams img{
     margin-bottom: 0px;
 }
 .microteams h3{
- margin-top: 0px;
- padding-top: 5px;
+    padding-top: 0px;
+    margin-top: 10px;
 }
 .covid{
     width: 100%;
