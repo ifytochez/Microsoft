@@ -153,10 +153,82 @@ margin: auto;
 .outlook-right{
     width: 100%;
 }
- .outlook-right img{
+.outlook-right img{
     width: 50%;
    position: relative;
    left: 130px;
-  
-   } 
+ } 
+ .softbiz p{
+    padding-left: 34px;
 }
+.business{
+flex-direction: column;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+
+.microteams{
+    width: 98%;
+    margin:auto;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+.microteams img{
+    margin-bottom: 0px;
+}
+.microteams h3{
+ margin-top: 0px;
+ padding-top: 5px;
+}
+.covid{
+    width: 100%;
+    height: 40vh;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+.covid h2{
+     padding-left: 10px;
+     font-size: 26px;
+     font-weight: 600;
+     padding-bottom: 10px;
+     text-align: center;
+     padding-top: 25px;
+}
+.covid p{
+font-size: 15px;
+font-weight: 400;
+padding-left: 15px;
+line-height: 19.5px;
+text-align: center;
+}
+.covid a{
+ padding-left: 200px;
+ margin: auto;
+}
+.firstfooter{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+   
+}
+.firstfooter1{
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+.secondfooter{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+.globe{
+    padding-left: 30px;
+}
+.secondfooter ul{
+    padding-left: 10px;
+}  
+
+}
+
+@media screen and (min-width:500px) and (max)
