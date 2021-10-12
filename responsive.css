@@ -38,6 +38,7 @@
     .header img{
         padding: 10px;
         float: right;
+        margin-right: 60px;
     }
     .header .menu{
         clear: both;
@@ -142,7 +143,7 @@ margin: auto;
 .outlook-banner{
     flex-direction: column-reverse;
     width:100%;
-    /* padding-top: 170px; */
+    padding-top: 170px;
 }
 .outlook-left{
     padding: 100px 0px 50px 0px;
@@ -186,12 +187,13 @@ margin-bottom: 0px;
     width: 100%;
     height: auto;
     padding-top: 0;
+    padding-bottom: 10px;
 }
 .covid h2{
      padding-left: 10px;
      font-size: 26px;
      font-weight: 600;
-     padding-bottom: 10px;
+     padding-bottom: 18px;
      padding-top: 25px;
 }
 .covid p{
@@ -224,5 +226,229 @@ line-height: 19.5px;
 }  
 
 }
-
+@media screen and (min-width:501px) and (max-width: 1000px){
+    body{
+        overflow-x: hidden;
+    }
+    .break{
+        display: inline;
+    }
+    .break2{
+        display: none;
+    }
+    .menu2{
+        padding-left: 0px;
+    }
+    .icons{
+        display: none;
+    }
+    .header ul li{
+        margin-left: 0px;
+    }
+    .menu2 button{
+        display: none;
+    }
+    .header{
+        background: white;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+    .header ul{
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        background: #f3f3f3;
+    }
+    .header ul li{
+        display: block;
+        padding: 20px;
+    }
+   .thin{
+       display: block;
+       border: 1px solid #494848;
+       opacity: 0.1;
+   }
+    .header img{
+        padding: 10px;
+        float: right;
+        margin-right: 60px;
+    }
+    .header .menu{
+        clear: both;
+        max-height: 0;
+        transition:max-height .2s ease-out;
+    }
+   .header .menu-icon{
+       padding: 28px 20px;
+       position: relative;
+       float: left;
+   }
+   .header .menu-icon .nav-icon{
+       background: black;
+       display: block;
+       height: 2px;
+       width: 18px;
+       position: relative;
+       transition:background .2s ease-out;
+   }
+    .header .menu-icon .nav-icon:before{
+        background: black;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition:all .2s ease-out;
+        top: 5px;
+    }
+    .header .menu-icon .nav-icon:after{
+        background: black;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition:all .2s ease-out;
+        top: -5px;
+    }
+    .header .menu-btn{
+        display: none;
+    }
+   .header .menu-btn:checked ~ .menu{
+       max-height: 540px;
+   }
+   .header .menu-btn:checked ~ .menu-icon .nav-icon{
+    background: transparent;
+   }
+  .header .menu-btn:checked ~ .menu-icon .nav-icon::before{
+    transform: rotate(-45deg);  
+    top: 0;
+  }
+  .header .menu-btn:checked ~ .menu-icon .nav-icon::after{
+    transform: rotate(45deg);
+    top: 0;
+  }
+  .hide{
+      display: block;
+  }
+  .banner-container{
+    flex-direction: column-reverse;
+    padding-top: 300px;
+ } 
+  .left{
+    padding: 50px 0px 50px 0px;
+    width: 100%;
+    text-align: center;
+} 
+  .button{
+    margin: auto;
+} 
+  .right img{
+    width: 100%;
+    height: auto;
+    position: none;
+} 
+  .about{
+        flex-wrap: wrap;
+        width: 90%;
+        padding-left: 0px;
+        padding-bottom: 45px;
+        margin: auto;
+    }
+    .micro365{
+        width: 49%;
+        height: auto;
+    }
+    .micro365 h3{
+        margin-top: 0px;
+        padding-top: 25px;
+       }
+    .anchor-tag{
+        padding-bottom: 20px;
+       }
+       .outlook-banner{
+        flex-direction: column-reverse;
+        width:100%;
+        padding-top: 170px;
+    }
+    .outlook-left{
+        padding: 100px 0px 50px 0px;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .button2{
+        margin: auto;
+    }
+    .outlook-right{
+        width: 100%;
+    }
+    .outlook-right img{
+        width: 50%;
+       position: relative;
+       left: 130px;
+     } 
+    .business{
+        flex-wrap: wrap;
+        width: 90%;
+        padding-left: 0px;
+        padding-bottom: 45px;
+        margin: auto;
+    }
+    .microteams{
+        width: 48%;
+        height: auto;
+    }
+    .softbiz p{
+        padding-left: 46px;
+    }
+    .covid{
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .covid h2{
+        font-size: 26px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        padding-top: 25px;
+   }
+   .covid p{
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 19.5px;
+   }
+   .covid a{
+    text-align: center;
+   }
+   .media{
+       padding-bottom: 45px;
+   }
+   .firstfooter{
+       width: 100%;
+       flex-wrap: wrap;
+       padding-top: 20px;
+   }
+   .firstfooter1{
+       padding-left: 30px;
+       width: 30.3%;
+       padding-bottom: 20px;
+   }
+   .secondfooter{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+.globe{
+    padding-left: 30px;
+}
+.secondfooter ul{
+    padding-left: 10px;
+}  
+}
 
