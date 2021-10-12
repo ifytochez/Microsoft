@@ -103,7 +103,7 @@
   } 
   .banner-container{
       flex-direction: column-reverse;
-      /* padding-top: 300px; */
+      padding-top: 300px;
   }
   .left{
     padding: 50px 0px 50px 0px;
@@ -143,7 +143,7 @@ margin: auto;
 .outlook-banner{
     flex-direction: column-reverse;
     width:100%;
-    /* padding-top: 170px; */
+    padding-top: 170px;
 }
 .outlook-left{
     padding: 100px 0px 50px 0px;
@@ -337,7 +337,7 @@ line-height: 19.5px;
   }
   .banner-container{
     flex-direction: column-reverse;
-    padding-top: 400px;
+    padding-top: 600px;
  } 
   .left{
     padding: 50px 0px 50px 0px;
@@ -369,11 +369,11 @@ line-height: 19.5px;
        }
     .anchor-tag{
         padding-bottom: 20px;
-       }
+   }
        .outlook-banner{
         flex-direction: column-reverse;
         width:100%;
-        padding-top: 500px;
+        padding-top: 400px;
     }
     .outlook-left{
         padding: 100px 0px 50px 0px;
@@ -451,209 +451,4 @@ line-height: 19.5px;
 .secondfooter ul{
     padding-left: 10px;
 }  
-}
-@media screen and (min-width:1001px){
-    .header img{
-        width: 130px;
-        height: 25px;
-        padding-left: 80px;
-    }
-    .menu2{
-        padding-left: 450px;
-        margin: 0px;
-     } 
-    .icons{
-        padding-left: 15px;
-    }
-    .search, .cart, .user{
-        padding-left: 13px;
-        font-weight: normal;
-    } 
-    
-    .banner-container{
-        width: 88%;
-        height: 70vh;
-        margin: auto;
-        display: flex;
-        background: #F3F3F3;
-        }
-    .right{
-            flex: 1;
-    }
-    .right img{
-          width: 100%;
-          height: auto;
-         position: relative;
-         right: -20px;
-     }
-     .left{
-         padding-top: 140px;
-         padding-left: 80px;
-         flex: 1;
-     }   
-     .left h1{
-         font-size: 24px;
-         font-weight: 600;
-         font-family: "Segoe UI";
-     }
-     .left p{
-         font-size: 15px;
-         font-family: "Segoe UI";
-         font-weight: 400;
-     }
-     .button{
-         width: 130px;
-         padding: 10px 10px 10px 0px;
-         background: black;
-     }
-      .button a{
-        text-decoration: none;
-         color: white; 
-     } 
-     .learn{
-         font-family: "Segoe UI";
-         font-weight: 600;
-         font-size: 15px;
-         margin-left: 25px;
-       
-     }
-     .learn:hover{
-         text-decoration: underline 2px solid;
-     }
-     .button span{
-         color: white;
-     }
-    
-    .about{
-        display: flex;
-        background: white;
-        justify-content: space-between;
-        width: 88%;
-        padding-left: 80px;
-        padding-top: 40px;
-        flex-wrap: wrap;
-    }
-    .micro365{
-    background: white;
-    width: 23.5%;
-    height: 400px;
-    }
-     .micro365 img{
-        width: 100%;
-    }
-    .micro365 h3{
-        margin-bottom: 0px;
-        font-family: "Segoe UI";
-        font-size: 20px;
-        font-weight: 600;
-    }
-    .micro365 p{
-        padding-top: 5px;
-        margin-top: 0px;
-        font-family: "Segoe UI";
-        font-size: 15px;
-        font-weight: 400px;
-        margin-bottom: 0px;
-    }
-    
-    .outlook-banner{
-        width: 88%;
-        height: 75vh;
-        margin: auto;
-        display: flex;
-        background: #F3F3F3;
-        margin-bottom: 0;
-    }
-    
-    .outlook-left{
-            flex: 1;
-            padding-top: 150px;
-            padding-left: 80px;
-    }  
-    .outlook-left h1{
-            font-size: 24px;
-            font-weight: 600;
-            font-family: "Segoe UI";
-    }
-    .outlook-left p{
-            font-size: 15px;
-            font-family: "Segoe UI";
-            font-weight: 400;
-    }
-     .outlook-right img{
-             width: 100%;
-            }
-    
-    .microteams{
-        background: white;
-        width: 23.5%;
-        height: 400px;
-        }
-        
-    .microteams img{
-                width: 100%;
-            }
-    .microteams h3{
-                padding-top: 20px;
-                margin-bottom: 0px;
-                font-family: "Segoe UI";
-                font-size: 20px;
-                font-weight: 600;
-            }
-    .microteams p{
-                padding-top: 5px;
-                margin-top: 0px;
-                font-family: "Segoe UI";
-                font-size: 15px;
-                font-weight: 400px;
-                margin: auto;
-    
-            }
-    .covid{
-        width: 88%;
-        height: 25vh;
-        margin: auto;
-        background: #F3F3F3;
-        text-align: center;
-     }
-     .covid h2{
-         padding-top: 30px;
-     }
-     .media{
-         display: flex;
-         margin: auto;
-         width: 88%;
-         align-items: center;
-         padding-top: 55px;
-         padding-bottom: 20px;
-     }
-     .socialmedia{
-         margin-bottom: 10px;
-     }
-     .firstfooter{
-        padding-top: 45px;
-        }
-    .firstfooter h3{
-        padding-bottom: 5px;
-    }   
-    .firstfooter1{
-        padding-left: 80px;
-    }
-    
-    .secondfooter{
-        padding-top: 50px;
-    }
-    .globe{
-        margin-bottom: 0px;
-        padding-top: 18px;
-        padding-left: 80px;
-    }
-    
-    .secondfooter ul{
-        padding-left: 480px;
-    }
-    .secondfooter ul li{
-        margin-left: 25px;
-    }
-    
 }
