@@ -337,7 +337,7 @@ line-height: 19.5px;
   }
   .banner-container{
     flex-direction: column-reverse;
-    padding-top: 300px;
+    padding-top: 400px;
  } 
   .left{
     padding: 50px 0px 50px 0px;
@@ -373,7 +373,7 @@ line-height: 19.5px;
        .outlook-banner{
         flex-direction: column-reverse;
         width:100%;
-        padding-top: 170px;
+        padding-top: 500px;
     }
     .outlook-left{
         padding: 100px 0px 50px 0px;
@@ -386,6 +386,7 @@ line-height: 19.5px;
     }
     .outlook-right{
         width: 100%;
+
     }
     .outlook-right img{
         width: 50%;
@@ -451,4 +452,3 @@ line-height: 19.5px;
     padding-left: 10px;
 }  
 }
-
