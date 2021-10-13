@@ -46,7 +46,7 @@
         transition:max-height .2s ease-out;
     }
    .header .menu-icon{
-       padding: 28px 20px;
+       padding: 28px 35px;
        position: relative;
        float: left;
    }
@@ -103,7 +103,7 @@
   } 
   .banner-container{
       flex-direction: column-reverse;
-      padding-top: 50px;
+      padding-top: 190px;
   }
   .left{
     padding: 50px 0px 50px 0px;
@@ -283,7 +283,7 @@ line-height: 19.5px;
         transition:max-height .2s ease-out;
     }
    .header .menu-icon{
-       padding: 28px 20px;
+       padding: 28px 35px;
        position: relative;
        float: left;
    }
@@ -337,7 +337,7 @@ line-height: 19.5px;
   }
   .banner-container{
     flex-direction: column-reverse;
-    padding-top: 150px;
+    padding-top: 250px;
  } 
   .left{
     padding: 50px 0px 50px 0px;
@@ -452,4 +452,10 @@ line-height: 19.5px;
 .secondfooter ul{
     padding-left: 10px;
 }  
+}
+@media screen and (min-width:1001px)  and (max-width: 1200px){
+   .menu2{
+         padding-left: 200px;
+        }
+        
 }
